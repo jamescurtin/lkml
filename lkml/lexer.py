@@ -1,26 +1,6 @@
 from typing import Tuple, List
 import lkml.tokens as tokens
-
-EXPR_BLOCK_KEYS = (
-    "expression_custom_filter",
-    "html",
-    "sql_trigger_value",
-    "sql_table_name",
-    "sql_distinct_key",
-    "sql_start",
-    "sql_always_having",
-    "sql_always_where",
-    "sql_trigger",
-    "sql_foreign_key",
-    "sql_where",
-    "sql_end",
-    "sql_create",
-    "sql_latitude",
-    "sql_longitude",
-    "sql_step",
-    "sql_on",
-    "sql",
-)
+from lkml.keys import EXPR_BLOCK_KEYS
 
 
 class Lexer:
