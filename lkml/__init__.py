@@ -4,6 +4,7 @@ import argparse
 import json
 from lkml.lexer import Lexer
 from lkml.parser import Parser
+from lkml.serializer import Serializer
 
 
 def load(file_object):
